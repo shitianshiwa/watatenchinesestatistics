@@ -4,12 +4,12 @@
 ## 需要下载 https://www.python.org/downloads/
 https://www.python.org/ftp/python/3.7.3/
 
-## 全部都需要安装的依赖模块
-* python3 -m pip install BeautifulSoup4
-* python3 -m pip install requests
+## 全部都需要安装的依赖模块(使用python3或python)
+* python3/python -m pip install BeautifulSoup4
+* python3/python -m pip install requests
 ## 可选（更新pip用）
-* python3 -m pip install --upgrade pip(推荐)
-* pip3 install --upgrade pip
+* python3/python -m pip install --upgrade pip(推荐)
+* pip3/pip install --upgrade pip
 
 windows系统安装好python3后，直接使用start.bat就可以了
 
