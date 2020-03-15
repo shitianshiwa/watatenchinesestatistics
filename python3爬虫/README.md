@@ -50,4 +50,11 @@ crond简介
 
 crond是linux下用来周期性的执行某种任务或等待处理某些事件的一个守护进程，与windows下的计划任务类似，当安装完成操作系统后，默认会安装此服务工具，并且会自动启动crond进程，crond进程每分钟会定期检查是否有要执行的任务，如果有要执行的任务，则自动执行该任务。
 
+service cron stop
+查看列表 crontab -l 
+编辑列表 crontab -e 键盘ctrl+o+enter保存 ctrl+x退出
+service cron start
+service cron status
+
+
 
